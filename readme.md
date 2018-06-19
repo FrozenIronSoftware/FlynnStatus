@@ -47,7 +47,7 @@ _Optional_
 
 Type: boolean
 
-If not set to a case-ignored true, No calls to modify DNS records on
+If not set to a case-ignored false, No calls to modify DNS records on
  CloudFlare will be made. Alerters will still be called.
  
 ### LOG_LEVEL
@@ -122,6 +122,27 @@ Alerters are alert systems that will report critical failures and events.
 - CloudFlare API Fail: A request to the CloudFlare API has failed.
 - DNS Record Removed: A DNS record has been removed from CloudFlare.
 - DNS Record Added: A DNS record has been added to CloudFlare.
+
+# License
+
+FlynnStatus is a Flynn cluster and node health monitor that modifies
+ CloudFlare DNS records. 
+
+Copyright (C) 2018 Frozen Iron Software LLC
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
 
 
 
